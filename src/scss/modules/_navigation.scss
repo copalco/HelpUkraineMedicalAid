@@ -1,0 +1,16 @@
+.navigation {
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__item {
+    width: 25%;
+    background: transparent;
+
+    & .mat-button-toggle-label-content {
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+}

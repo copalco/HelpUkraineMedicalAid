@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from "./modules/material.module";
 import {HttpClientModule, HttpClient} from '@angular/common/http'
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core'
-import {TranslateHttpLoader} from '@ngx-translate/http-loader'
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { NavigationComponent } from './components/navigation/navigation.component'
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,
