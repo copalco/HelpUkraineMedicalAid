@@ -1,0 +1,28 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__social {
+    margin-right: 50px;
+  }
+
+  &__icon {
+    display: inline-block;
+    cursor: pointer;
+    &-facebook {
+      margin-right: 25px;
+    }
+  }
+
+  &__logo {
+    cursor: pointer;
+  }
+}

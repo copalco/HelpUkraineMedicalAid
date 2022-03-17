@@ -1,16 +1,8 @@
 <div class="main">
-  <mat-toolbar class="toolbar">
-    <div class="switch-lang">
-      <mat-select [value]="translate.currentLang" #langSelect
-                  (selectionChange)="switchLang(langSelect.value)">
-        <mat-option *ngFor="let lang of translate.getLangs()"
-                    [value]="lang">
-          {{lang | uppercase}}
-        </mat-option>
-      </mat-select>
-    </div>
-  </mat-toolbar>
-
-  <app-navigation></app-navigation>
+  <div class="container">
+    <app-toolbar></app-toolbar>
+    <app-navigation></app-navigation>
+    <app-content></app-content>
+  </div>
 </div>
 

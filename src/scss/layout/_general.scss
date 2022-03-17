@@ -27,10 +27,12 @@ body {
    font-family: $font;
 }
 
-.toolbar {
-  display: flex;
-  justify-content: flex-end;
-  background: transparent;
+.container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 // Main styles
